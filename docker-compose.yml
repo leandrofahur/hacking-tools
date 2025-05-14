@@ -10,6 +10,7 @@ services:
     command: python tools/main.py
     tty: true
     stdin_open: true
+    privileged: true
     develop:
       watch:
         - action: rebuild
