@@ -1,0 +1,19 @@
+
+services:
+  arsenal:
+    build: 
+      context: .
+      dockerfile: Dockerfile        
+    volumes:
+      - .:/arsenal        
+    restart: unless-stopped
+    command: python tools/main.py
+    tty: true
+    stdin_open: true
+    develop:
+      watch:
+        - action: rebuild
+          path: .
+          ignore:                        
+            - __pycache__            
+            - "*.pyc"            
