@@ -1,0 +1,29 @@
+# Networking
+scapy>=2.5.0           # For packet manipulation and network scanning
+requests>=2.31.0       # For HTTP/HTTPS requests
+paramiko>=3.4.0        # For SSH connections
+netaddr>=0.9.0         # For IP address handling
+netifaces>=0.11.0      # For network interface information
+
+# Security
+cryptography>=42.0.0   # For encryption/decryption operations
+python-nmap>=0.7.1     # For network scanning
+pyOpenSSL>=24.0.0      # For SSL/TLS operations
+bcrypt>=4.1.0          # For password hashing
+
+# Utilities
+click>=8.1.7           # For building CLI applications
+rich>=13.7.0           # For rich terminal output
+python-dotenv>=1.0.0   # For environment variable management
+pyyaml>=6.0.1          # For YAML file handling
+tqdm>=4.66.1           # For progress bars
+
+# Development
+black>=24.1.1          # For code formatting
+isort>=5.13.2          # For import sorting
+flake8>=7.0.0          # For linting
+pytest>=8.0.0          # For testing
+
+ipython>=8.15.0        # For interactive shell
+pwntools>=4.11.0      # For reverse engineering and exploitation
+
